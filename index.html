@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiteja Thadisetty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>SAITEJA THADISETTY</h1>
+                <ul>
+                    <li>
+                        <a href="#aboutme">Home</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-text">
+            <h1>Hi!👋</h1>
+            <h1>Saiteja Thadisetty</h1>
+            <p>A Passionate <span>Full-stack developer!!</span></p>
+        </div>
+        
+    </div>
+    
+
+    <section id="aboutme">
+        <h1 class="section-title">About Me</h1>
+        <p>I'm Saiteja Thadisetty, currently pursuing my Master's in Computer Science at the University of Central Missouri. I am passionate about solving complex problems using full-stack development and machine learning. My expertise spans the MERN stack, allowing me to build dynamic web applications, while my experience in machine learning has led to a successful project on multi-label leaf classification. Additionally, I completed a six-month internship at Honeywell, where I worked with smart meter data and earned the prestigious Bravo Award for my contributions. I am always eager to learn and innovate in the tech world!</p>
+    </section>
+
+    <section id="portfolio" class="portfolio-section">
+        <h1 class="section-title">My Portfolio</h1>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="Portfolio_website.png" 
+                     alt="Portfolio Website" class="portfolio-img">
+                <h2 class="project-title">Portfolio Website</h2>
+                <p class="project-description">Built a webpage of my own portfolio using HTML, CSS, JAVASCRIPT, REACT JS. Also included different functionalites like extracting user information by including contact form.</p>
+            </div>
+    
+            <div class="portfolio-item">
+                <img src="https://media.licdn.com/dms/image/D5612AQE5ZfaaoK9PTA/article-cover_image-shrink_720_1280/0/1710870673636?e=2147483647&v=beta&t=7enxLcFrk0np_XKr8YkYugrDTg-c2R64DOU7XKOdqq4" 
+                     alt="Book Tickets" class="portfolio-img">
+                <h2 class="project-title">ML Based Stock Price Prediction</h2>
+                <p class="project-description">Implemented ML algorithms to predict stock prices accurately using a comprehensive dataset (S&P 500). Demonstrated the potential for informed decision-making in the finanical market.</p>
+            </div>
+    
+            <div class="portfolio-item">
+                <img src="Robot.png" 
+                     alt="Order Food" class="portfolio-img">
+                <h2 class="project-title">Autonomous Navigation Robot using ZYBO Z7 FPGA</h2>
+                <p class="project-description">Developed fixed path autonomous navigation for a 4WD robot using Zybo Z7-10 FPGA. Implemented the navigation path for the robot using verilog HDL programming.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="contact" class="contact-section">
+        <h1 class="section-title">Contact Me</h1>
+        
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="name@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" class="form-control" placeholder="Enter your message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    
+    </section>
+</body>
+</html>

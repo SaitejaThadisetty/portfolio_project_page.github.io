@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+
+body{
+    background: #fff;
+    color: black;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.licdn.com/dms/image/D4D12AQGPAWnsOTQYEQ/article-cover_image-shrink_720_1280/0/1674548497069?e=2147483647&v=beta&t=LGu3mNqQTh8TOteu6UCoZOnz_0_hLtafpNsEch1Pb6E);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+
+nav ul li a:hover {
+    color: white; 
+    background-color: #ff004f; 
+    border-radius: 4px;
+}
+
+.header-text{
+    position: relative;
+    margin-top: 10%;
+    left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.header-text h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.header-text p span{
+    color: #ff004f;
+}
+
+#aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-title {
+    text-align: center;
+    margin : 20px ; 
+}
+
+#aboutme p {
+    text-align: center;
+    width: 40%; 
+    height: auto; 
+    margin: 0px 20px 20px; 
+    line-height: 1.6; 
+    font-weight: 20px;
+}
+
+
+.portfolio-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Portfolio Container */
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .portfolio-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    height: 400px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.project-title {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #333;
+}
+
+.project-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.contact-form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section {
+    padding: 40px 20%;
+    background-color: #fff;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 2rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #666;
+}
+
+.submit-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 18px;
+    background-color: #275c8f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0d6d35;
+    transform: scale(1.1);
+    transition: transform 0.4s ease-in-out, background-color 0.3s ease;
+}
